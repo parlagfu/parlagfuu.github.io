@@ -1,0 +1,54 @@
+body {
+    background-color: #9cee59;
+    color: black;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #999999;
+}
+
+.table_outside {
+    width: 980px;
+    border: none;
+    /*border-spacing: 0px; cellspacing in old html*/
+    /*set table to center*/
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.table_outside tr { 
+    background-color: #509050;
+}
+
+.table_inside {
+    width: 940px;
+    border: none;
+    padding-bottom: 20px;
+    /*border-spacing: 1px; cellspacing in old html*/
+    /*set table to the center*/
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.table_inside tr {
+    background-color: white;
+    /*padding: 0px; cellpaddign in old html*/
+}
+
+td { 
+   padding: 0px; /*cellpaddign in old html*/  
+}
+
+tr.second {
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#gyom {
+    float: right;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px;
+}
